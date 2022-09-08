@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans',sans-serif,Arial;
-    background: #f5f5f5;
+    /* background: #f5f5f5; */
     font-style: normal;
 }
 .container{
@@ -456,4 +456,68 @@ footer{
     height: 30px;
     width: 17%;
    border-radius: 5px;
+}
+
+
+/* @media screen and (min-width: 600px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  /* @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  } */ 
+  @media screen and (max-width: 993px) {
+    body{
+        background-color: #3799a7;
+        
+    }  
+    .df{
+        width: 25% !important;
+        
+    }
+ }
+  @media screen and (max-width: 730px) {
+    body{
+        background-color: #3799a7;
+    }   
+   .vv{
+    font-size: 14px;
+   }
+   .headtitle{
+    font-size: 44px;
+   }
+   .ptitle{
+    font-size: 13px;
+    letter-spacing: 2px;
+   }
+   .logobike{
+    margin-bottom: 4px;
+   }
+   .col1{
+    width: 100% !important;
+    margin-left: 0% !important;
+   }
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: #2a4c52;
+    }   
+   .vv{
+    font-size: 10px;
+   }
+   .headtitle{
+    font-size: 40px;
+   }
+   .ptitle{
+    font-size: 10px;
+    letter-spacing: 1.5px;
+   }
+   #number_container ul li a{
+    margin-left: 20px;
+   }
 }
