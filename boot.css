@@ -471,6 +471,32 @@ footer{
       font-size: 30px;
     }
   } */ 
+  @media screen and (max-width: 1024px) {
+    body{
+        background-color: #3799a7;
+        
+    }  
+    .df{
+        width: 25% !important;
+        
+    }
+    .pricebtn{
+        width: 100%;
+        font-size: 14px !important;
+    }
+    #number_container ul li a{
+        margin-left: 10px;
+            
+    }
+    .selectbrand a span img {
+        height: 30px;
+        
+    }
+    .selectbrand a{
+        font-size:10px ;
+    }
+
+ }
   @media screen and (max-width: 993px) {
     body{
         background-color: #3799a7;
@@ -480,7 +506,22 @@ footer{
         width: 25% !important;
         
     }
+    
  }
+ @media screen and (max-width: 824px) {
+    body{
+        background-color: #3799a7;
+        
+    }  
+    .df{
+        width: 25% !important;
+        
+    }
+    .pricebtn{
+        width: 100%;
+        font-size: 14px !important;
+    }
+}
   @media screen and (max-width: 730px) {
     body{
         background-color: #3799a7;
